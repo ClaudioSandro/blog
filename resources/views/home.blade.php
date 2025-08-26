@@ -10,11 +10,8 @@
 <body>
     <div class="max-w-7xl mx-auto p-4">
         {{-- <h1>Welcome to my Laravel 12 Application</h1> --}}
-        <x-alert>
-            <x-slot name="dark">
-                Info alert!
-            </x-slot>
-            asdf
+        <x-alert type="dark" title="¡Éxito!">
+            Operación realizada correctamente.
         </x-alert>
     </div>
 </body>
